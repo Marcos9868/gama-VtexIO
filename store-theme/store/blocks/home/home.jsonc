@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "countdown.title",
       "countdown",
       "list-context.image-list#demo",
       /* You can make references to blocks defined in other files.
