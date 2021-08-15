@@ -24,13 +24,13 @@
 
 	"rich-text#about-title": {
 		"props": {
-			"text": "# About Minimum Theme"
+			"text": "### About Minimum Theme"
 		}
 	},
 
 	"rich-text#about-content": {
 		"props": {
-			"text": " This is the VTEX Minimum Theme, you can use it to test blocks usage and build your first store from scratch."
+			"text": " This is the _VTEX Minimum Theme_, \n you can use it to test blocks usage and build your first store from scratch."
 		}
 	},
 	

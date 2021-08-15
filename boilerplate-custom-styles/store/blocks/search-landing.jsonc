@@ -1,0 +1,29 @@
+{
+	"store.custom#landing": {
+		"blocks": [
+			"image#landingbanner",
+			"search-result-layout.customQuery"
+		]
+	},
+	"image#landingbanner": {
+		"props": {
+			"src": "https://vtex.com/wp-content/themes/VTEXTheme/v2/images/components/call-to-action/pattern.jpg",
+			"minWidth": "100%"
+		}
+	},
+	"search-result-layout.customQuery": {
+		"blocks": [
+			"search-result-layout.desktop"
+		],
+		"props": {
+			"querySchema": {
+				"orderByField": "OrderByReleaseDateDESC",
+				"hideUnavailableItems": true,
+				"maxItemsPerPage": 8,
+				"queryField": "Camera",
+				"mapField": "ft",
+				"skusFilter": "ALL_AVAILABLE"
+			}
+		}
+	}
+}
