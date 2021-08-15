@@ -15,7 +15,7 @@
     "typescript": "3.9.7"
   },
   "scripts": {
-    // "lint": "tsc --noEmit --pretty && tslint -c tslint.json --fix './**/*.ts'"
+    "lint": "tsc --noEmit --pretty && tslint -c tslint.json --fix './**/*.ts'"
   },
   "version": "0.0.7"
 }
