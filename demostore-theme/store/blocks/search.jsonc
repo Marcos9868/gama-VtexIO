@@ -1,5 +1,11 @@
 {
   "store.search": {
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    },
     "blocks": ["search-result-layout#search"]
   },
 
@@ -201,8 +207,15 @@
 
   "flex-layout.row#depBanner": {
     "children": [
-      "info-card#depbanner"
+      "image#depbanner"
     ]
+  },
+
+  "image#depbanner": {
+    "props": {
+      "src": "https://vtex.com/wp-content/themes/VTEXTheme/v2/images/components/call-to-action/pattern.jpg",
+      "preload": true
+    }
   },
 
   "search-result-layout.mobile#dep": {

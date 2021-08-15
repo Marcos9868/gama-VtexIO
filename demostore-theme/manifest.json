@@ -1,6 +1,6 @@
 {
-  "vendor": "demostore",
-  "name": "appliance-theme",
+  "vendor": "hiringcoders2021",
+  "name": "appliance-theme-fabiohaddad",
   "version": "1.3.0",
   "builders": {
     "styles": "2.x",
