@@ -13,6 +13,18 @@
     "referenceLocale": "en",
     "localeDirectory": "messages"
   },
+  "lint-staged": {
+    "*.{ts,js,tsx,jsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ],
+    "*.json": [
+      "prettier --write"
+    ],
+    "messages/*.json": [
+      "yarn lint:locales"
+    ]
+  },
   "devDependencies": {
     "@vtex/intl-equalizer": "^2.5.0",
     "@vtex/prettier-config": "^0.3.5",
